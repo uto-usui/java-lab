@@ -13,7 +13,7 @@ class Issue06{
                     break;
                 }
             }
-            if(flg == true)count++;    // （エ）
+            if(flg)count++;    // （エ）
         }
         System.out.println("Count="+count);
     }
