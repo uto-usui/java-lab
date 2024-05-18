@@ -1,4 +1,4 @@
-package propg07;
+package prog07;
 
 public class Polynomial extends Function {
     private final int degree;

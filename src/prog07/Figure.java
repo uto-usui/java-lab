@@ -1,4 +1,4 @@
-package propg07;
+package prog07;
 
 class Figure{
     public String name;

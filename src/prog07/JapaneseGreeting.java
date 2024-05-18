@@ -1,4 +1,4 @@
-package propg07;
+package prog07;
 
 abstract class Greeting {
     private static String name;
