@@ -1,12 +1,11 @@
-package prog09;
+package prog10;
 
-public class Kinko implements Lockable {
+class LockableJewelBox extends JewelBox implements Lockable {
     private boolean isLock = false;
-    private int deposit = 0;
     private String keyToken = "";
 
-    public Kinko(int d) {
-        deposit = d;
+    public LockableJewelBox(boolean e) {
+        super(e);
     }
 
     public boolean lock(MyKey key) {
@@ -22,8 +21,8 @@ public class Kinko implements Lockable {
         return !isLock;
     }
 
-    void printDeposit() {
-        if (isLock) System.out.println("ロックされています");
-        else System.out.println("預金額は " + deposit + " です");
+    public void printEmpty() {
+        if (isLock) System.out.println("ロックされています.");
+        else super.printEmpty();
     }
 }

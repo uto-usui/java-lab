@@ -1,4 +1,4 @@
-package prog09;
+package prog10;
 
 public interface MyKey {
     String getKeyToken();

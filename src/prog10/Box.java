@@ -1,4 +1,4 @@
-package prog09;
+package prog10;
 
 class Box {
     boolean isEmpty = true;

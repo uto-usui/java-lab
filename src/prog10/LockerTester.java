@@ -1,4 +1,4 @@
-package prog09;
+package prog10;
 
 class LockerTester {
     public static void main(String[] args){
