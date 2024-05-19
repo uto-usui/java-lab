@@ -1,7 +1,7 @@
 package prog11_3;
 
 // 剰余を実装するクラス
-public class Modulus implements Calc {
+class Modulus implements Calc {
     public String getOperator() {
         return "%";
     }

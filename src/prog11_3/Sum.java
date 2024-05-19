@@ -1,7 +1,7 @@
 package prog11_3;
 
 // 加算を実装するクラス
-public class Sum implements Calc {
+class Sum implements Calc {
     public String getOperator() {
         return "+";
     }
