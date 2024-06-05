@@ -4,15 +4,12 @@ public class Lec14Main2 {
 
     public static void main(String[] args) {
         try {
-            if (args.length == 0) {
+            if (args.length < 1) {
                 throw new IllegalArgumentException("クラス名を指定してください");
             }
 
             String targetClassName;
-            if (args.length < 2) {
-                throw new IllegalArgumentException("クラス名を指定してください");
-            }
-            targetClassName = args[1];
+            targetClassName = args[0];
 
             Class<?> c = Class.forName(targetClassName);
             System.out.println("Target class is " + c.getCanonicalName());
