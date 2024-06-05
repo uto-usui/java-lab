@@ -1,7 +1,7 @@
 package prog11_3;
 
 // 乗算を実装するクラス
-public class Multiply implements Calc {
+class Multiply implements Calc {
     public String getOperator() {
         return "x";
     }
