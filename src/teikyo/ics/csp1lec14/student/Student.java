@@ -6,7 +6,7 @@ public class Student extends Person implements Learner, Settable {
     Study study;
 
     public Student() {
-        this.study = new Programming();
+        this.study = new Programming();  // デフォルトはProgramming
     }
 
     @Override
@@ -18,6 +18,10 @@ public class Student extends Person implements Learner, Settable {
     public void setValues(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    public void setStudy(Study study) {
+        this.study = study;
     }
 
     @Override
